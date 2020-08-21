@@ -8,5 +8,4 @@ Rails.application.routes.draw do
     resources :records do
     end
   end
-
 end

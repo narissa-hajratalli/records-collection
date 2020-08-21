@@ -4,7 +4,6 @@ class ApplicationController < ActionController::API
   def encode_token(payload)
     JWT.encode(payload, 'yourSecret')
   end
-
   def auth_header
     # { Authorization: 'Bearer <token>' }
     request.headers['Authorization']
