@@ -12,6 +12,8 @@ class ArtistsController < ApplicationController
     end
   end
 
+  private
+
   def artist_params
     params.permit(:name, :hot_100_hits)
   end
