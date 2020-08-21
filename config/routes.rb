@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get "/auto_login", to: "users#auto_login"
 
   resources :artists do
-    resources :records 
+    resources :records do
+    end
   end
 end
