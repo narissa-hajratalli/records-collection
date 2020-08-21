@@ -7,9 +7,9 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 # User.create(email: "test@test.com", username: "test1", password: "123")
-Artist.create(name: "Taylor Swift", hot_100_hits: "We Belong Together")
-Artist.create(name: "Ed Sheeran", hot_100_hits: "Photograph")
-Artist.create(name: "Chainsmokers", hot_100_hits: "Closer")
+Artist.create(name: "Taylor Swift", hot_100_hits: 1)
+Artist.create(name: "Ed Sheeran", hot_100_hits: 3)
+Artist.create(name: "Chainsmokers", hot_100_hits: 3)
 
 Record.create(title: "Lover", release_year: 2019, cover_image: "https://upload.wikimedia.org/wikipedia/en/c/cd/Taylor_Swift_-_Lover.png", artist_id: 1)
 Record.create(title: "Reputation", release_year: 2006, cover_image: "https://images-na.ssl-images-amazon.com/images/I/61fqizgZeZL.jpg", artist_id: 1)
