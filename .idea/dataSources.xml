@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Rails records-collection: production" uuid="b090df29-35fe-44aa-9613-d69e3f4e3954">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/record_collection_production</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails records-collection: test" uuid="209fb4b9-759f-4e2a-8180-c4edf8429b31">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/record_collection_test</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails records-collection: development" uuid="dcfa3fa9-84ab-4dc5-817b-bb88953d237e">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/record_collection_development</jdbc-url>
+    </data-source>
+  </component>
+</project>
