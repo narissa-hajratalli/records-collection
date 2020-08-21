@@ -15,6 +15,21 @@ class ArtistsController < ApplicationController
     end
   end
 
+  def search
+    @search_string = Artist.where('name LIKE ?', "%#{params[:name]}%")
+    puts @search_string
+    if @search_string
+      render :json => {
+          :response => "Successful",
+          :data => @search_string
+      }
+    else
+      render :json => {
+          :response => "Artist not found."
+      }
+    end
+  end
+
   def create
     @new_artist = Artist.new(artist_params)
     if @new_artist.save
